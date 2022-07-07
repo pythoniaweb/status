@@ -28,7 +28,7 @@ sites: # List of endpoints to track
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  baseUrl: /boomstatus # Custom domain CNAME
+  baseUrl: /status # Custom domain CNAME
   name: BoomHost Status # Status website title
   # baseUrl: /your-repo-name
   logoUrl: https://boomhost.ml/ico.ico
