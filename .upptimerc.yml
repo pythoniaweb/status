@@ -9,6 +9,10 @@ sites: # List of endpoints to track
     url: http://area.boomhost.ml/login.php
     maxResponseTime: 50000
     __dangerous__disable_verify_host: true
+  - name: Status Page
+    url: http://status.boomhost.ml/
+    maxResponseTime: 50000
+    __dangerous__disable_verify_host: true
   - name: BoomHost FTP
     url: http://mftp.boomhost.ml
     maxResponseTime: 50000
@@ -28,8 +32,8 @@ sites: # List of endpoints to track
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  baseUrl: /status # Custom domain CNAME
-  name: BoomHost Status # Status website title
+  cname: status.boomhost.ml # Custom domain CNAME
+  name: BoomHost Status # Status website titlename: upptime.js.org
   # baseUrl: /your-repo-name
   logoUrl: https://boomhost.ml/ico.ico
   introTitle: "BoomHost Status Page."
