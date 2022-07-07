@@ -40,6 +40,8 @@ status-website:
   name: BoomHost Status # Status website titlename: upptime.js.org
   # baseUrl: /your-repo-name
   logoUrl: https://boomhost.ml/ico.ico
+  favicon: https://boomhost.ml/ico.ico
+  icon: https://boomhost.ml/ico.ico
   introTitle: "BoomHost Status Page."
   introMessage: Service Status of Hosting BoomHost.ml
   navbar:
