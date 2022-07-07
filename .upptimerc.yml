@@ -14,7 +14,7 @@ sites: # List of endpoints to track
     maxResponseTime: 50000
     __dangerous__disable_verify_host: true
   - name: BoomHost FTP
-    url: http://mftp.boomhost.ml/index.php
+    url: http://myftp.boomhost.ml/index.php
     maxResponseTime: 50000
     __dangerous__disable_verify_host: true
   - name: cPanel
